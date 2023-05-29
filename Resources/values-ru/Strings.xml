@@ -1,0 +1,33 @@
+﻿<resources>
+	<string name="ApplicationName">Контакты</string>
+	<string name="AddEditContacts">Добавить/Изменить контакты</string>
+	
+	<string name="AddNewContact">Добавить контакт</string>
+	<string name="Search">Поиск</string>
+	<string name="Permission">Запросить разрешение</string>
+	<string name="Notification">Уведомление</string>
+
+	<string name="Contact-Id">id Контакта </string>
+	<string name="Name">Имя </string>
+	<string name="Mobile">Тел. номер </string>
+	<string name="Email">Эл.Почта </string>
+	<string name="Description">Описание </string>
+	<string name="Save"> Сохранить </string>
+
+	<string name="listRow_Name">Имя: </string>
+	<string name="listRow_Mobile">Тел. номер: </string>
+	<string name="listRow_Email">Эл.Почта: </string>
+	<string name="listRow_Description">О контакте: </string>
+
+	<string name="AddEditActivity_Name">Введите имя</string>
+	<string name="AddEditActivity_Mobile">Введите номер телефона</string>
+	<string name="AddEditActivity_Email">Недопустимое имя почты</string>
+	<string name="AddEditActivity_Update">Контакт успешно обновлен</string>
+	<string name="AddEditActivity_Create">Новый контакт успешно создан</string>
+
+	<string name="Delete_Box">Удаление</string>
+	<string name="Delete_Text">Удалить контакт?</string>
+	<string name="Delete_OK">ОК</string>
+	<string name="Delete_Cancel">Отмена</string>
+	<string name="Delete_Message">Контакт удален</string>
+</resources>

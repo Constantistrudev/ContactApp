@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Contact-Id" />
+                <EditText
+                    android:id="@+id/addEdit_ContactId"
+                    style="@style/input_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:editable="false"
+                    android:hint="@string/Contact-Id" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Name" />
+                <EditText
+                    android:id="@+id/addEdit_FullName"
+                    style="@style/input_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/addEdit_ContactId"
+                    android:layout_weight="1"
+                    android:hint="@string/Name" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Mobile" />
+                <EditText
+                    android:id="@+id/addEdit_Mobile"
+                    style="@style/input_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/addEdit_FullName"
+                    android:layout_weight="1"
+                    android:hint="@string/Mobile" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Email" />
+                <EditText
+                    android:id="@+id/addEdit_Email"
+                    style="@style/input_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/addEdit_Mobile"
+                    android:layout_weight="1"
+                    android:hint="@string/Email" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Description" />
+                <EditText
+                    android:id="@+id/addEdit_Description"
+                    style="@style/input_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/addEdit_Email"
+                    android:layout_weight="1"
+                    android:gravity="top|left"
+                    android:hint="@string/Description"
+                    android:inputType="textMultiLine"
+                    android:lines="4"
+                    android:scrollHorizontally="false"
+                    android:scrollbars="vertical" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" " />
+                <Button
+                    android:id="@+id/addEdit_btnSave"
+                    style="@style/button_style"
+                    android:layout_weight="1"
+                    android:text="@string/Save" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+</RelativeLayout>

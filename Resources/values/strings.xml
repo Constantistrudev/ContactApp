@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">APP</string>
+    <string name="Hello">Hello World, Click Me!</string>
+	
+    <string name="ApplicationName">Contacts</string>
+	<string name="AddEditContacts">Add/Edit Contacts</string>
+	
+	<string name="Permission">Request permission</string>
+	<string name="Notification">Notification</string>
+	
+	<string name="AddNewContact">Add New Contact</string>
+	<string name="Search">Search</string>
+	
+	<string name="Contact-Id">Contact id </string>
+	<string name="Name">Name </string>
+	<string name="Mobile">Mobile </string>
+	<string name="Email">Email </string>
+	<string name="Description">Description </string>
+	<string name="Save"> Save </string>
+
+	<string name="listRow_Name">Name: </string>
+	<string name="listRow_Mobile">Mobile: </string>
+	<string name="listRow_Email">Email: </string>
+	<string name="listRow_Description">Description: </string>
+
+	<string name="AddEditActivity_Name">Enter Full Name.</string>
+	<string name="AddEditActivity_Mobile">Enter Mobile Number.</string>
+	<string name="AddEditActivity_Email">Invalid email address.</string>
+	<string name="AddEditActivity_Update">Contact Updated Successfully.</string>
+	<string name="AddEditActivity_Create">New Contact Created Successfully.</string>
+
+	<string name="Delete_Box">Confirm Delete</string>
+	<string name="Delete_Text">Are you sure delete?</string>
+	<string name="Delete_OK">OK</string>
+	<string name="Delete_Cancel">Cancel</string>
+	<string name="Delete_Message">Contact Deeletd Successfully</string>
+	
+	
+</resources>
